@@ -1,0 +1,42 @@
+<router-outlet></router-outlet>
+<mat-toolbar id="nav"  >
+<mat-toolbar-row>
+  <button  type="button" aria-label="toggle sidenav" mat-icon-button (click)="toggleNav(sidenav)">
+    <mat-icon aria-hidden="false" aria-label="side nav toggle icon" >menu</mat-icon>
+  </button>
+</mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" close class="vertical-menu" >
+    <mat-nav-list style="width: 200px;">
+      <ul>
+        <li routerLinkActive="active">
+      <a mat-list-item class="hom" routerLink="/home" skipLocationChange="true">
+        <mat-icon class="homeicon" color="accent">home</mat-icon>&nbsp;<label class="side1">Home</label>
+      </a></li>
+      <li routerLinkActive="active">
+      <a mat-list-item class="edu" routerLink="./education"skipLocationChange="true">
+        <mat-icon class="eduicon"color="primary">school</mat-icon>&nbsp;<label class="side1">Education</label>
+      </a></li>
+      <li routerLinkActive="active">
+      <a mat-list-item class="skill" routerLink="./skills"skipLocationChange="true">
+        <mat-icon mat-icon-round class="skillicon" color="primary">engineering</mat-icon>&nbsp;<label class="side1">Skills</label>
+      </a></li>
+      <li>
+      <a mat-list-item class="proj" routerLink="./projects"skipLocationChange="true">
+        <mat-icon  class="projicon"color="primary">code</mat-icon>&nbsp;<label class="side1">Projects</label>
+      </a></li>
+      <li>
+      <a mat-list-item class="contact" routerLink="/contactme"skipLocationChange="true">
+        <mat-icon  class="conicon"color="primary">contacts</mat-icon>&nbsp;<label class="side1">Contact Me</label>
+      </a>
+    </li>
+     </ul>
+    </mat-nav-list>
+  </mat-sidenav>
+ 
+  <mat-sidenav-content>
+    <p style="height: 88vh;">
+       <router-outlet></router-outlet>
+    </p>
+  </mat-sidenav-content>

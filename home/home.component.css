@@ -1,0 +1,22 @@
+
+.head{
+    font-size: 100px;
+    text-align: center;
+    font-family: Brush Script MT;
+    letter-spacing: 3px;
+    
+    color:rgb(39, 40, 54) ;
+    
+}
+.details{
+    text-align: center;
+    
+}
+.about{
+font-size: 15px;
+}
+.port{
+    font-size: 20px;
+    font-family: trebuchet MS;
+    color: blueviolet;
+}

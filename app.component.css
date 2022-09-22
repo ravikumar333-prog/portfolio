@@ -1,0 +1,67 @@
+#nav{
+    background-color:    #7EE8FA ;
+    background-image: linear-gradient(315deg, #FC575E 5%,#7EE8FA 70%);
+    
+}
+.vertical-menu{
+    
+   
+    
+}
+.hom:hover{
+    background-image: linear-gradient(315deg,#D387AB 5%,#A7ACD9 70%);
+    border-radius: 5px;
+}
+.hom:focus{
+    background-image: linear-gradient(315deg,#D387AB 5%,#A7ACD9 70%);
+    border-radius: 5px;
+}
+.edu:hover{
+    background-image: linear-gradient(315deg,#D387AB 5%,#A7ACD9 70%);
+    border-radius: 5px;
+}
+.edu:focus{
+    background-image: linear-gradient(315deg,#D387AB 5%,#A7ACD9 70%);
+    border-radius: 5px;
+}
+
+.skill:hover{
+    background-image: linear-gradient(315deg,#D387AB 5%,#A7ACD9 70%);
+    border-radius: 5px;
+}
+.skill:focus{
+    background-image: linear-gradient(315deg,#D387AB 5%,#A7ACD9 70%);
+    border-radius: 5px;
+}
+.proj:hover{
+    background-image: linear-gradient(315deg,#D387AB 5%,#A7ACD9 70%);
+    border-radius: 5px;
+}
+.proj:focus{
+    background-image: linear-gradient(315deg,#D387AB 5%,#A7ACD9 70%);
+    border-radius: 5px;
+}
+
+.contact:hover{
+    background-image: linear-gradient(315deg,#D387AB 5%,#A7ACD9 70%);
+    border-radius: 5px;
+}
+.contact:focus{
+    background-image: linear-gradient(315deg,#D387AB 5%,#A7ACD9 70%);
+    border-radius: 5px;
+}
+.side1{
+    font-size: 15px;
+}
+.eduicon{
+    font-size: 20px;
+}
+.skillicon{
+    font-size: 25px;
+}
+.conicon{
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
